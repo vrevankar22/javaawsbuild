@@ -9,7 +9,4 @@ phases:
   build:
     commands:
       - mvn clean install
-
-artifacts:
-  files:
-    - '**/*'
+      - mvn exec:java -Dexec.mainClass=OpenAmazon
