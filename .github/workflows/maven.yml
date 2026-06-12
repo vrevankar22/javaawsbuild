@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     runs-on:
-        - codebuild-javaawsbuild-project-${{ github.run_id }}-${{ github.run_attempt }}
+        - ubuntu-latest
 
     steps:
     - uses: actions/checkout@v4
